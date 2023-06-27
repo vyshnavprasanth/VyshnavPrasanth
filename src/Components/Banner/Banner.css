@@ -1,0 +1,58 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.introduction {
+    margin-top: 4vh;
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgb(120, 176, 199);
+
+}
+
+.name {
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 31px;
+    display: none;
+}
+
+.projects-button {
+    margin-top: 5vh;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1vh;
+    color:  #ffffff;
+    background-color: rgb(120, 176, 199) ;
+    /* border: 10px solid black; */
+    border-radius: 5px;
+    transition: all 0.3s;
+    width: 12vw;
+    border: 1px solid rgb(255, 255, 255);
+    height: 5vh;
+}
+
+.projects-button:hover {
+    color: rgb(120, 176, 199);
+    background-color: #ffffff;
+    border: 2px solid rgb(120, 176, 199);
+}
+
+@media (max-width: 767px) {
+    .introduction {
+        margin-top: 4vh;
+        font-size: 1em;
+        font-weight: 400;
+    
+    }
+    .projects-button{
+        font-size: 1em;
+        width: 45vw;
+    }
+
+}

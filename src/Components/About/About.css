@@ -1,0 +1,13 @@
+.about-me .ant-timeline-item-head {
+    background-color: white !important;
+  }
+
+  .about-me-secondary{
+    padding: 100px;
+  }
+
+  @media (max-width: 767px) {
+    .about-me-secondary{
+      padding: 10vw;
+    }
+  }

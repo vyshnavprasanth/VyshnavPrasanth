@@ -1,0 +1,27 @@
+.header__personal-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+
+.ant-menu-item-selected {
+    color: rgb(120, 176, 199) !important;
+}
+
+.ant-menu-item-selected::after {
+    border-bottom: 2px solid rgb(120, 176, 199) !important;
+}
+
+.ant-menu-item:hover {
+    color: rgb(120, 176, 199) !important;
+  }
+
+.header__personal-info {
+    border-bottom: 2px solid rgb(120, 176, 199) !important;
+}
+
+@media (max-width: 767px) {
+    .header__personal-info{
+        font-size: 1em;
+    }
+}
