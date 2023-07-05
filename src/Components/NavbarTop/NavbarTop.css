@@ -1,0 +1,61 @@
+.header__personal-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+
+.ant-menu-item-selected {
+    color: rgb(0, 0, 0) !important;
+}
+
+.ant-menu-item-selected::after {
+    border-bottom: 2px solid rgb(120, 176, 199) !important;
+}
+
+.ant-menu-item:hover {
+    
+    color: rgb(0, 0, 0) !important;
+    border-color: rgb(120, 176, 199) !important;
+    ;
+}
+
+.header__personal-info {
+    color: black;
+    border-bottom: 2px solid rgb(120, 176, 199) !important;
+    font-size: 1em;
+
+}
+
+.menu {
+    animation: slideFromLeft 3s ease-in-out;
+}
+
+
+.profile-name {
+    animation-delay: 2s;
+    animation: slideInFromLeft 2s ease-in-out;
+    /* Add transition for smooth effect */
+}
+
+.profile-name:hover {
+    transform: translateY(-5px);
+    /* Apply transformation on hover */
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 767px) {
+    .header__personal-info {
+        font-size: 0.6em;
+    }
+}

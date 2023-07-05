@@ -1,2 +1,2 @@
 # VyshnaPrasanth
-My official website
+My Personal website

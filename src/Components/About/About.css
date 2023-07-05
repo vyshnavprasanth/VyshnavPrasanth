@@ -1,13 +1,52 @@
 .about-me .ant-timeline-item-head {
-    background-color: white !important;
+  background-color: white !important;
+}
+
+.about-me-secondary {
+  padding: 5vh;
+}
+
+.timeline-card {
+  box-shadow: 0 2px 8px rgb(120, 176, 199);
+  width: fit-content;
+}
+
+.timeline-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline-card {
+  text-align: center;
+  animation: slideInFromBottom 1s ease-out;
+}
+
+.timeline-card:hover{
+  transform: translateY(-10px);
+}
+
+.heading-timeline {
+  animation: slideInFromBottom 2s ease-out;
+  font-size: 3em;
+  line-height: 18px;
+
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(50%);
+    opacity: 0;
   }
 
-  .about-me-secondary{
-    padding: 100px;
+  100% {
+    transform: translateY(0);
+    opacity: 1;
   }
+}
 
-  @media (max-width: 767px) {
-    .about-me-secondary{
-      padding: 10vw;
-    }
+@media (max-width: 767px) {
+  .about-me-secondary {
+    padding: 10vw;
   }
+}
