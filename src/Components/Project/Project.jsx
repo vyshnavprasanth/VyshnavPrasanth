@@ -62,7 +62,7 @@ const Project = () => {
     
 
         <Card
-          cover={<img alt="example" src={`${process.env.PUBLIC_URL}/assets/preview.png`}  style={{ height: "30vh", width: '30vw' }}  />}
+          cover={<img alt="example" src={`${process.env.PUBLIC_URL}/assets/reeboot-kerala.jpeg`}  style={{ height: "30vh", width: '30vw' }}  />}
           hoverable
           className="hover-card"
         >

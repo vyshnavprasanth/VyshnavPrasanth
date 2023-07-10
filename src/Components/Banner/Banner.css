@@ -111,7 +111,7 @@
 
 .animation-btn {
     animation: slideInFromBottom 1s;
-    animation-delay: 9s;
+    animation-delay: 6.5s;
     animation-fill-mode: backwards;
 }
 
@@ -131,7 +131,7 @@
 @media (max-width: 767px) {
     .introduction {
         margin-top: 4vh;
-        font-size: 2em;
+        font-size: 1.5em;
         font-weight: 400;
         line-height: 14px;
         font-weight: 700;
@@ -155,5 +155,11 @@
         margin-right: 6vw;
 
     }
+
+    .banner-img-head{
+        display: none;
+    }
+
+
 
 }

@@ -28,3 +28,16 @@
   
   transform: translateX(5px);
 }
+
+@media (max-width: 767px) {
+
+  
+  .social-media-bar a {
+  
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    text-decoration: none;
+    transition: background-color 0.3s ease-out;
+  }
+}
