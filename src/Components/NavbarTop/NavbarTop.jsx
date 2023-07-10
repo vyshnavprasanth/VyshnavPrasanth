@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Layout, Menu } from 'antd';
-import {  RiMailFill } from 'react-icons/ri';
-import { FaDesktop,FaHome, FaUser } from 'react-icons/fa'
+import { RiMailFill } from 'react-icons/ri';
+import { FaDesktop, FaHome, FaUser } from 'react-icons/fa'
 import './NavbarTop.css'
 import Banner from '../Banner/Banner'
 import About from '../About/About'
@@ -15,20 +15,6 @@ const NavbarTop = () => {
   const handleMenuClick = (key) => {
     setSelectedKey(key);
   };
-
-  const [showMagnifier, setShowMagnifier] = useState(false);
-
-  const handleMouseEnter = () => {
-    setShowMagnifier(true);
-    // Additional logic for displaying zoomed-in content or other actions
-  };
-
-  const handleMouseLeave = () => {
-    setShowMagnifier(false);
-    // Additional logic for hiding zoomed-in content or other actions
-  };
-
-
 
   return (
     <Layout>

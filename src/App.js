@@ -1,8 +1,5 @@
 import './App.css'
 import NavbarTop from './Components/NavbarTop/NavbarTop'
-import About from './Components/About/About'
-import Project from './Components/Project/Project'
-import Banner from './Components/Banner/Banner';
 import SocialMedia from './Components/SocialMedia/SocialMedia';
 import { useEffect } from 'react';
 import './index.css'

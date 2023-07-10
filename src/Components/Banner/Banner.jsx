@@ -22,7 +22,7 @@ function Banner() {
     }, 2000); // Delay execution by 3 seconds (3000 milliseconds)
   
     return () => clearTimeout(timer);
-  }, []); // Empty dependency array to ensure the effect runs only once
+  }, [fullName]); // Empty dependency array to ensure the effect runs only once
   
   return (
     <div className='banner'>

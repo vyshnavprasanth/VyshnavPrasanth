@@ -1,10 +1,9 @@
-import { React, useState } from 'react'
+import { React } from 'react'
 import { Card } from 'antd'
 import './Project.css'
 
 const { Meta } = Card;
 const Project = () => {
-  const [hovered, setHovered] = useState(false);
   return (
     <div>
       <h1 className="heading-timeline" style={{ marginTop: '2vh', marginBottom: "1vh", color: 'black', textAlign: 'center' }}>
