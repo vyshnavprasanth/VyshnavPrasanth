@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vyshnavprasanth.gtihub.io/VyshnavPrasanth/static/css/main.3a15c4d3.css",
+    "main.js": "/vyshnavprasanth.gtihub.io/VyshnavPrasanth/static/js/main.1d6e1d31.js",
+    "index.html": "/vyshnavprasanth.gtihub.io/VyshnavPrasanth/index.html",
+    "main.3a15c4d3.css.map": "/vyshnavprasanth.gtihub.io/VyshnavPrasanth/static/css/main.3a15c4d3.css.map",
+    "main.1d6e1d31.js.map": "/vyshnavprasanth.gtihub.io/VyshnavPrasanth/static/js/main.1d6e1d31.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a15c4d3.css",
+    "static/js/main.1d6e1d31.js"
+  ]
+}
