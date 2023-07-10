@@ -32,15 +32,6 @@ const Project = () => {
           </div>
         </Card>
         <Card
-          cover={<img alt="example" src={`${process.env.PUBLIC_URL}/assets/IoT.png`}  style={{ height: "30vh", width: '30vw' }}  />}
-          hoverable
-          className="hover-card"
-        >
-          <div className="hover-content">
-            <Meta title="Intrusion Detection in Home IoT" description=" HandlebarsJS, ExpressJS, C++, Python, Deep Learning" />
-          </div>
-        </Card>
-        <Card
           cover={<img alt="example" src={`${process.env.PUBLIC_URL}/assets/e-store.png`}  style={{ height: "30vh", width: '30vw' }}  />}
           hoverable
           className="hover-card"
@@ -49,6 +40,16 @@ const Project = () => {
             <Meta title="E-Store" description="HandlebarsJS, ExpressJS, Bootstrap, Razorpay Integration" />
           </div>
         </Card>
+        <Card
+          cover={<img alt="example" src={`${process.env.PUBLIC_URL}/assets/IoT.png`}  style={{ height: "30vh", width: '30vw' }}  />}
+          hoverable
+          className="hover-card"
+        >
+          <div className="hover-content">
+            <Meta title="Intrusion Detection in Home IoT" description=" HandlebarsJS, ExpressJS, C++, Python, Deep Learning" />
+          </div>
+        </Card>
+
         <Card
           cover={<img alt="example" src={`${process.env.PUBLIC_URL}/assets/mess-management.png`}  style={{ height: "30vh", width: '30vw' }}  />}
           hoverable

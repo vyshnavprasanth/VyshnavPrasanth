@@ -9,10 +9,10 @@ const SocialMedia = () => {
       <a href="https://www.instagram.com">
         <FontAwesomeIcon icon={faInstagram} size="2x" />
       </a>
-      <a href="https://www.github.com">
+      <a href="https://github.com/vyshnavprasanth">
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
-      <a href="https://www.linkedin.com">
+      <a href="https://www.linkedin.com/in/vyshnavprasanth27">
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
     </div>

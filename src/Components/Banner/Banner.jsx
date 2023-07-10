@@ -19,7 +19,7 @@ function Banner() {
           clearInterval(interval);
         }
       }, 200); // Adjust the interval duration (in milliseconds) to control the speed of animation
-    }, 3000); // Delay execution by 3 seconds (3000 milliseconds)
+    }, 2000); // Delay execution by 3 seconds (3000 milliseconds)
   
     return () => clearTimeout(timer);
   }, []); // Empty dependency array to ensure the effect runs only once
