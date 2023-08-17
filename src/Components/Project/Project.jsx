@@ -31,7 +31,7 @@ const Project = () => {
           </div>
         </Card>
         <Card
-          cover={<img alt="example" src={`${process.env.PUBLIC_URL}/assets/e-store.png`}  style={{ height: "30vh", width: '30vw' }}  />}
+          cover={<img alt="example" src={`${process.env.PUBLIC_URL}/assets/e-store.png`} style={{ height: "30vh", width: '30vw' }} />}
           hoverable
           className="hover-card"
         >
@@ -40,7 +40,7 @@ const Project = () => {
           </div>
         </Card>
         <Card
-          cover={<img alt="example" src={`${process.env.PUBLIC_URL}/assets/IoT.png`}  style={{ height: "30vh", width: '30vw' }}  />}
+          cover={<img alt="example" src={`${process.env.PUBLIC_URL}/assets/IoT.png`} style={{ height: "30vh", width: '30vw' }} />}
           hoverable
           className="hover-card"
         >
@@ -50,7 +50,7 @@ const Project = () => {
         </Card>
 
         <Card
-          cover={<img alt="example" src={`${process.env.PUBLIC_URL}/assets/mess-management.png`}  style={{ height: "30vh", width: '30vw' }}  />}
+          cover={<img alt="example" src={`${process.env.PUBLIC_URL}/assets/mess-management.png`} style={{ height: "30vh", width: '30vw' }} />}
           hoverable
           className="hover-card"
         >
@@ -58,10 +58,10 @@ const Project = () => {
             <Meta title="Mess Management" description="HandlebarsJS, ExpressJS, Bootstrap, JQuery" />
           </div>
         </Card>
-    
+
 
         <Card
-          cover={<img alt="example" src={`${process.env.PUBLIC_URL}/assets/reeboot-kerala.jpeg`}  style={{ height: "30vh", width: '30vw' }}  />}
+          cover={<img alt="example" src={`${process.env.PUBLIC_URL}/assets/reeboot-kerala.jpeg`} style={{ height: "30vh", width: '30vw' }} />}
           hoverable
           className="hover-card"
         >

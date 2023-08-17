@@ -72,11 +72,12 @@
 
 }
 
+
 .projects-button:hover {
     color: rgb(59, 54, 54);
     background: rgb(248, 244, 244);
     border: 1px solid rgb(154, 231, 227);
-    
+
 }
 
 .animation {
@@ -142,6 +143,10 @@
         width: 45vw;
     }
 
+
+
+
+
     .horizontal-list {
         display: flex;
         justify-content: space-around;
@@ -156,10 +161,7 @@
 
     }
 
-    .banner-img-head{
+    .banner-img-head {
         display: none;
     }
-
-
-
 }

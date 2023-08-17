@@ -50,9 +50,9 @@ const NavbarTop = () => {
             color: 'black'
           }}
         >
-          <Menu.Item key='1'>< FaHome style={{ marginRight: '0.5rem' }} />Home</Menu.Item>
-          <Menu.Item key='2'>< FaUser style={{ marginRight: '0.5rem' }} />About</Menu.Item>
-          <Menu.Item key='3'>< FaDesktop style={{ marginRight: '0.5rem' }} />Projects</Menu.Item>
+          <Menu.Item key='1' className='menu-links' style={{fontSize:'0.9em' }}>< FaHome style={{ marginRight: '0.5rem',fontSize:'0.9em'}} />Home</Menu.Item>
+          <Menu.Item key='2'className='menu-links'style={{fontSize:'0.9em' }}>< FaUser style={{ marginRight: '0.5rem',fontSize:'0.9em '}} />About</Menu.Item>
+          <Menu.Item key='3'className='menu-links'>< FaDesktop style={{ marginRight: '0.5rem' }} />Projects</Menu.Item>
         </Menu>
       </Header>
 
