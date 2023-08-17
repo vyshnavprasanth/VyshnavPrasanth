@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/VyshnavPrasanth/static/css/main.3a15c4d3.css",
-    "main.js": "/VyshnavPrasanth/static/js/main.bfb8b906.js",
+    "main.js": "/VyshnavPrasanth/static/js/main.7306b9f2.js",
     "index.html": "/VyshnavPrasanth/index.html",
     "main.3a15c4d3.css.map": "/VyshnavPrasanth/static/css/main.3a15c4d3.css.map",
-    "main.bfb8b906.js.map": "/VyshnavPrasanth/static/js/main.bfb8b906.js.map"
+    "main.7306b9f2.js.map": "/VyshnavPrasanth/static/js/main.7306b9f2.js.map"
   },
   "entrypoints": [
     "static/css/main.3a15c4d3.css",
-    "static/js/main.bfb8b906.js"
+    "static/js/main.7306b9f2.js"
   ]
 }
